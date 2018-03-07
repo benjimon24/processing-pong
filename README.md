@@ -1,7 +1,7 @@
 # pong
 ----
 not sure where the code went but im gonna paste it here for now:
-
+----
 int rad = 12; 
 float xpos, ypos; 
 
@@ -33,7 +33,6 @@ void draw()
     ydirection *= -1;
   }
 
-  // Draw the shape
   ellipse(xpos, ypos, rad, rad);
   rect(mouseX - 40, (height - 80), 80, 20);
 }
